@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long tables</title>
+    <style type="text/css">
+        table{border: none;}
+        thead th 
+        {
+            border-bottom: 2px solid #444444;
+            width: 120px;
+        }
+        tfoot td {border-top: 1px solid #444444;}
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Income</th>
+                <th>Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>01.04</th>
+                <td>250</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <th>02.04</th>
+                <td>260</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <th>03.04</th>
+                <td>270</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <th>04.04</th>
+                <td>280</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <th>05.04</th>
+                <td>290</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <th>06.04</th>
+                <td>300</td>
+                <td>35</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>1250</td>
+                <td>3034</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
